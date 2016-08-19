@@ -28,6 +28,7 @@ angular.module('prakMed').factory('beaconManager', function($cordovaBeacon){
         brIdentifier, brUuid, brMajor, brMinor, brNotifyEntryStateOnDisplay
       ));
     };
+
     $scope.startRangingBeaconsInRegion = function() {
       $cordovaBeacon.startRangingBeaconsInRegion($cordovaBeacon.createBeaconRegion(
         brIdentifier, brUuid, brMajor, brMinor, brNotifyEntryStateOnDisplay
