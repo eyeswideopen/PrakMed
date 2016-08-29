@@ -1,9 +1,11 @@
 <ion-view view-title="LIVE">
   <ion-content>
 
+    <!-- TEST IMAGE SLIDER -->
 
 
     <ion-slides  options="options" slider="data.slider">
+      <!-- TODO: styling via scss not inline and switch to low res pictures -->
       <ion-slide-page>
         <div class="slider_image" style="background:url('../img/high_res/test_01.jpg') no-repeat center center; background-size:cover"></div>
       </ion-slide-page>
@@ -14,7 +16,26 @@
         <div class="slider_image" style="background:url('../img/high_res/test_03.jpg') no-repeat center center; background-size:cover"></div>
       </ion-slide-page>
     </ion-slides>
-    <div style="height:500px;width:100%;text-align:center"><h1>fasdfasdfasdf</h1></div>
+    <div style="height:500px;width:100%;text-align:center"><h1>Lorem ipsum dolor sit amet ...</h1></div>
+
+    <!-- TEST AUDIO TRACK -->
+
+    <ion-audio-track track="myTrack">
+      <div class="list list-inset">
+        <div class="item item-thumbnail-left">
+          <img src="{{myTrack.art}}">
+          <h2>{{myTrack.title}}</h2>
+          <p>{{myTrack.artist}}</p>
+          <ion-audio-controls>
+            <a class="button button-icon icon" ion-audio-play></a>
+            <ion-spinner icon="ios"></ion-spinner>
+          </ion-audio-controls>
+        </div>
+        <div class="item">
+          <ion-audio-progress-bar track="myTrack" display-time></ion-audio-progress-bar>
+        </div>
+      </div>
+    </ion-audio-track>
 
   </ion-content>
 </ion-view>

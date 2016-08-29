@@ -1,6 +1,17 @@
 angular.module('prakMed').controller('liveController', function ($scope) {
 
 
+
+  //AUDIO PLAYER CONFIG
+  $scope.myTrack = {
+    url: 'audio/Hotspot_05_Audio_Geduld_edit.mp3',
+    artist: 'Somebody',
+    title: 'Song name',
+    art: 'img/album_art.jpg'
+  }
+
+
+  //IMAGE SLIDER CONFIG
   $scope.options = {
     loop: false,
     effect: 'fade',

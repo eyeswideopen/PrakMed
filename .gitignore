@@ -4,6 +4,8 @@ logs
 *.log
 npm-debug.log*
 
+#IDE files
+.idea
 # Runtime data
 pids
 *.pid
@@ -37,3 +39,6 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+#ionic lib
+praktikum_mediengestaltung/www/lib
