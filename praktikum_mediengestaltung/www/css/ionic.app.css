@@ -9817,3 +9817,47 @@ a.button {
 
 .slider_image {
   height: 100%; }
+
+.bar-dark {
+  background-color: #000 !important; }
+
+.menu .scroll-content {
+  background-color: #000; }
+
+.menu .item-content {
+  background-color: #000;
+  color: #fff; }
+
+.menu .item {
+  border-color: #333; }
+
+.water-audio .list-inset {
+  margin: 20px 15px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background-color: rgba(255, 255, 255, 0.1); }
+
+.water-audio .button {
+  color: #fff; }
+
+.water-audio .item {
+  background-color: transparent;
+  color: #fff;
+  border-color: transparent; }
+
+.water-text-wrapper {
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.1); }
+  .water-text-wrapper p {
+    font-size: 10px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300; }
+  .water-text-wrapper h1 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    margin-top: 10px !important; }

@@ -24,3 +24,76 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 .slider_image{
   height:100%;
 }
+
+//water variables
+$border-color: #333;
+$element-border-color: transparent;
+
+$element-background-color: rgba(255,255,255,0.1);
+$background: #000;
+$color: #fff;
+
+
+//
+//navigation
+//
+.bar-dark{
+ background-color: $background !important;
+}
+.menu{
+  .scroll-content{
+    background-color: $background;
+  }
+  .item-content{
+    background-color: $background;
+    color: $color;
+  }
+  .item{
+    border-color: $border-color;
+  }
+}
+
+
+//
+//water audio
+//
+.water-audio{
+  .list-inset{
+    margin: 20px 15px;
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:0px;
+    background-color: $element-background-color;
+  }
+  .button{
+    color: #fff;
+  }
+  .item{
+    background-color: transparent;
+    color: $color;
+    border-color: $element-border-color;
+  }
+}
+
+//
+//text content
+//
+.water-text-wrapper{
+  text-align: center;
+  margin:15px;
+  padding: 15px;
+  background-color: $element-background-color;
+
+  p{
+    font-size: 10px;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: 300;
+  }
+  h1{
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 30px;
+    margin-top: 10px !important;
+  }
+}

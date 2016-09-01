@@ -31,8 +31,8 @@ angular.module('prakMed', ['ionic', 'ngCordova', 'ionic-audio'])
         url: '/live',
         views: {
           'menuContent': {
-            templateUrl: 'templates/live.html',
-            controller: 'liveController'
+            templateUrl: 'templates/picture_template.html',
+            controller: 'picture_template'
           }
         }
       })
