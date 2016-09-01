@@ -22,9 +22,11 @@
     "cordova-plugin-statusbar",
     "ionic-plugin-keyboard",
     "com.unarin.cordova.beacon",
-    "cordova-plugin-media"
+    "cordova-plugin-media",
+    "cordova-plugin-headsetdetection"
   ],
   "cordovaPlatforms": [
-    "android"
+    "android",
+    "ios"
   ]
 }

@@ -1,5 +1,4 @@
-angular.module('prakMed').controller('picture_template', function ($scope) {
-
+angular.module('water').controller('picture_template', function ($scope, waterAudio) {
 
 
   //AUDIO PLAYER CONFIG

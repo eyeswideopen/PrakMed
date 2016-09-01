@@ -1,4 +1,4 @@
-angular.module('prakMed', ['ionic', 'ngCordova', 'ionic-audio'])
+angular.module('water', ['ionic', 'ngCordova', 'ionic-audio'])
 
   .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {

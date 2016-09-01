@@ -1,9 +1,24 @@
 /**
  * Created by maximiliankorner on 11/08/16.
  */
-angular.module('prakMed').factory('beaconManager', function($cordovaBeacon){
+angular.module('water').factory('beaconManager', function($cordovaBeacon, $ionicPlatform){
 
   var beaconManager = {};
+
+  //
+  //MOCKING
+  //
+
+
+  //returns bool if app has any beacons in range and thus is in the exibition
+  beaconManager.isInExibition = function(){
+    return true;
+  };
+
+
+
+
+
 
   //SETUP BEACONS
 
@@ -13,11 +28,21 @@ angular.module('prakMed').factory('beaconManager', function($cordovaBeacon){
   var brMinor = null;
   var brNotifyEntryStateOnDisplay = false;
 
+
+  /*
   $ionicPlatform.ready(function () {
+
+
+
+
+
+
 
     $scope.didStartMonitoringForRegionLog = '';
     $scope.didDetermineStateForRegionLog = '';
     $scope.didRangeBeaconsInRegionLog = '';
+
+
 
     $scope.requestAlwaysAuthorization = function() {
       $cordovaBeacon.requestAlwaysAuthorization();
@@ -76,7 +101,9 @@ angular.module('prakMed').factory('beaconManager', function($cordovaBeacon){
 
     // =========/ Events
 
+
   });
+     */
 
 
   return beaconManager;
