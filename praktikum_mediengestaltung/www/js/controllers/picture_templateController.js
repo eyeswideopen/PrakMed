@@ -1,5 +1,4 @@
-angular.module('water').controller('picture_template', function ($scope, waterAudio) {
-
+angular.module('water').controller('picture_template', function ($scope, waterAudio, MediaManager) {
 
   //AUDIO PLAYER CONFIG
   $scope.myTrack = {
@@ -30,6 +29,11 @@ angular.module('water').controller('picture_template', function ($scope, waterAu
     // note: the indexes are 0-based
     $scope.activeIndex = data.activeIndex;
     $scope.previousIndex = data.previousIndex;
+  });
+
+  // stop any track before leaving current view
+  $scope.$on('$ionicView.beforeLeave', function() {
+    MediaManager.stop();
   });
 
 
