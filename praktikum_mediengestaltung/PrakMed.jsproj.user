@@ -4,6 +4,6 @@
     <ReferenceCachePath>C:\Users\Ford Prefect\AppData\Local\Temp\ifn4ftlc_PrakMed_refcache</ReferenceCachePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
-    <DebuggerFlavor>RippleNexus7</DebuggerFlavor>
+    <DebuggerFlavor>RippleNexus</DebuggerFlavor>
   </PropertyGroup>
 </Project>
