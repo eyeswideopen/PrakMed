@@ -9866,30 +9866,20 @@ h1 {
 
 .water-text-wrapper {
   text-align: left;
-  padding: 15px;
   margin-bottom: 16px;
   background-color: rgba(255, 255, 255, 0.1); }
-  .water-text-wrapper .p {
+  .water-text-wrapper p {
     font-size: 16px;
     line-height: 22px;
     font-weight: 300;
-    margin: 10px !important; }
-  .water-text-wrapper .h1 {
+    padding: 16px; }
+  .water-text-wrapper h1 {
     font-size: 24px;
     font-weight: 200;
-    margin: 10px !important; }
-  .water-text-wrapper .img {
+    padding: 16px; }
+  .water-text-wrapper img {
     height: 100%;
     width: 100%; }
-
-.c_thumbnail {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  /*height: 80px;
-    width: 80px;
-    float: left;
-    margin-right: 10px;*/ }
 
 .quiz .button_right_answer {
   background-color: green !important; }
