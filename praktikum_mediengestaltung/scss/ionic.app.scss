@@ -78,6 +78,18 @@ $color: #fff;
 //
 //text content
 //
+
+h1{
+  text-align: center;
+}
+.quote{
+  font-size: 20px;
+  margin-bottom: 16px;
+  line-height: 30px;
+  text-align: center;
+}
+
+
 .water-text-wrapper{
   text-align: left;
   padding: 15px;
@@ -110,5 +122,11 @@ $color: #fff;
         float: left;
         margin-right: 10px;
     }
+}
+
+.todo{
+  font-size: 30px;
+  text-align: center;
+  color: yellow;
 }
 
