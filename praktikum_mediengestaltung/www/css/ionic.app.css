@@ -9866,8 +9866,8 @@ h1 {
 
 .water-text-wrapper {
   text-align: left;
-  margin: 15px;
   padding: 15px;
+  margin-bottom: 15px;
   background-color: rgba(255, 255, 255, 0.1); }
   .water-text-wrapper .p {
     font-size: 16px;
