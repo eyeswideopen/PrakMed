@@ -84,16 +84,32 @@ $color: #fff;
   padding: 15px;
   background-color: $element-background-color;
 
-  p{
-    font-size: 10px;
-    font-size: 17px;
+  .p{
+    font-size: 16px;
     line-height: 25px;
     font-weight: 300;
   }
-  h1{
-    font-size: 30px;
+  .h1{
+    font-size: 24px;
+    color: blue;
     font-weight: 200;
     margin-bottom: 30px;
     margin-top: 10px !important;
   }
+  .img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 20px;
+  }
 }
+
+.thumbnail{
+    .img{
+        height: 80px;
+        width: 80px;
+        float: left;
+        margin-right: 10px;
+    }
+}
+
