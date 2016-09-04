@@ -34,24 +34,25 @@ $background: #000;
 $color: #fff;
 
 //
-//navigation
+//navigation and list views
 //
 .bar-dark {
   background-color: $background !important;
 }
 
-//.menu {
-  .scroll-content {
-    background-color: $background;
-  }
-  .item-content {
-    background-color: $background !important;;
-    color: $color !important;;
-  }
-  .item {
-    border-color: $border-color;
-  }
-//}
+.scroll-content {
+  background-color: $background;
+}
+
+.item-content {
+  background-color: $background !important;;
+  color: $color !important;;
+}
+
+.item {
+  border-color: $border-color;
+}
+
 
 .impressum {
   opacity: 0.5;
@@ -62,7 +63,6 @@ $color: #fff;
   position: fixed;
   border: none;
 }
-
 
 //
 //water audio
@@ -133,6 +133,24 @@ h1 {
     margin-right: 10px;
   }
 }
+
+//
+//QUIZ
+//
+.quiz{
+  .button_right_answer{
+    background-color: green !important;
+  }
+  .button_wrong_answer{
+    background-color: red !important;
+  }
+  .quiz_answered{
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+  }
+}
+
 
 //
 //DEV

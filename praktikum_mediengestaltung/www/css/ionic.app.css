@@ -9890,6 +9890,17 @@ h1 {
   float: left;
   margin-right: 10px; }
 
+.quiz .button_right_answer {
+  background-color: green !important; }
+
+.quiz .button_wrong_answer {
+  background-color: red !important; }
+
+.quiz .quiz_answered {
+  text-align: center;
+  font-size: 30px;
+  padding: 30px; }
+
 .todo {
   font-size: 30px;
   text-align: center;
