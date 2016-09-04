@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 /*
 To customize the look and feel of Ionic, you can override the variables
 in ionic's _variables.scss file.
@@ -9846,29 +9846,42 @@ a.button {
   color: #fff;
   border-color: transparent; }
 
+h1 {
+  text-align: center; }
+
+.quote {
+  font-size: 20px;
+  margin-bottom: 16px;
+  line-height: 30px;
+  text-align: center; }
+
 .water-text-wrapper {
   text-align: left;
   margin: 15px;
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.1); }
-  .water-text-wrapper p {
-    font-size: 15px;
+  .water-text-wrapper .p {
+    font-size: 16px;
     line-height: 25px;
     font-weight: 300; }
-  .water-text-wrapper h1 {
+  .water-text-wrapper .h1 {
     font-size: 24px;
     font-weight: 200;
     margin-bottom: 10px;
     margin-top: 10px !important; }
-  .water-text-wrapper img {
+  .water-text-wrapper .img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-  }
+    padding: 20px; }
 
-  .thumbnail img{
-    margin-right: 10px;
-    height: 80px;
-    width: auto;
-    float: left;
-}
+.thumbnail .img {
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin-right: 10px; }
+
+.todo {
+  font-size: 30px;
+  text-align: center;
+  color: yellow; }
