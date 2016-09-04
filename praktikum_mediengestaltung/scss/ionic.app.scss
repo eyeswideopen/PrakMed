@@ -21,54 +21,64 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
-.slider_image{
-  height:100%;
+.slider_image {
+  height: 100%;
 }
 
 //water variables
 $border-color: #333;
 $element-border-color: transparent;
 
-$element-background-color: rgba(255,255,255,0.1);
+$element-background-color: rgba(255, 255, 255, 0.1);
 $background: #000;
 $color: #fff;
-
 
 //
 //navigation
 //
-.bar-dark{
- background-color: $background !important;
+.bar-dark {
+  background-color: $background !important;
 }
-.menu{
-  .scroll-content{
+
+//.menu {
+  .scroll-content {
     background-color: $background;
   }
-  .item-content{
-    background-color: $background;
-    color: $color;
+  .item-content {
+    background-color: $background !important;;
+    color: $color !important;;
   }
-  .item{
+  .item {
     border-color: $border-color;
   }
+//}
+
+.impressum {
+  opacity: 0.5;
+  left: 0;
+  right: 0;
+  top: -8px;
+  width: 100%;
+  position: fixed;
+  border: none;
 }
 
 
 //
 //water audio
 //
-.water-audio{
-  .list-inset{
+.water-audio {
+  .list-inset {
     margin: 20px 15px;
-    -webkit-border-radius:0px;
-    -moz-border-radius:0px;
-    border-radius:0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
     background-color: $element-background-color;
   }
-  .button{
+  .button {
     color: #fff;
   }
-  .item{
+  .item {
     background-color: transparent;
     color: $color;
     border-color: $element-border-color;
@@ -79,35 +89,35 @@ $color: #fff;
 //text content
 //
 
-h1{
+h1 {
   text-align: center;
 }
-.quote{
+
+.quote {
   font-size: 20px;
   margin-bottom: 16px;
   line-height: 30px;
   text-align: center;
 }
 
-
-.water-text-wrapper{
+.water-text-wrapper {
   text-align: left;
-  margin:15px;
+  margin: 15px;
   padding: 15px;
   background-color: $element-background-color;
 
-  .p{
+  .p {
     font-size: 16px;
     line-height: 25px;
     font-weight: 300;
   }
-  .h1{
+  .h1 {
     font-size: 24px;
     font-weight: 200;
     margin-bottom: 10px;
     margin-top: 10px !important;
   }
-  .img{
+  .img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
@@ -115,16 +125,19 @@ h1{
   }
 }
 
-.thumbnail{
-    .img{
-        height: 80px;
-        width: 80px;
-        float: left;
-        margin-right: 10px;
-    }
+.thumbnail {
+  .img {
+    height: 80px;
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 }
 
-.todo{
+//
+//DEV
+//
+.todo {
   font-size: 30px;
   text-align: center;
   color: yellow;

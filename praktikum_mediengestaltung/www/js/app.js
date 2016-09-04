@@ -45,6 +45,15 @@ angular.module('water', ['ionic', 'ngCordova', 'ionic-audio'])
           }
         }
       })
+      .state('app.impressum', {
+        url: '/impressum',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/impressum.html',
+            controller: 'impressumController'
+          }
+        }
+      })
 
       .state('app.01', {
         url: '/01',

@@ -9821,15 +9821,24 @@ a.button {
 .bar-dark {
   background-color: #000 !important; }
 
-.menu .scroll-content {
+.scroll-content {
   background-color: #000; }
 
-.menu .item-content {
-  background-color: #000;
-  color: #fff; }
+.item-content {
+  background-color: #000 !important;
+  color: #fff !important; }
 
-.menu .item {
+.item {
   border-color: #333; }
+
+.impressum {
+  opacity: 0.5;
+  left: 0;
+  right: 0;
+  top: -8px;
+  width: 100%;
+  position: fixed;
+  border: none; }
 
 .water-audio .list-inset {
   margin: 20px 15px;
