@@ -79,7 +79,7 @@ angular.module('water').controller('picture_template', function ($scope, waterAu
       });
 
       //reset display after 5 sec
-      $timeout(reset.bind(null,parent), 5000);
+      $timeout(reset.bind(null,parent), 4000);
     }
 
   };
@@ -92,5 +92,5 @@ angular.module('water').controller('picture_template', function ($scope, waterAu
     });
     jQuery(quiz).find(".answered_wrong").hide();
   }
-})
-;
+
+});

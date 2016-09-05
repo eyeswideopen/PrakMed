@@ -1,5 +1,5 @@
 <ion-view>
-  <ion-content overflow-scroll="false">
+  <ion-content>
 
     <!-- TEST IMAGE SLIDER -->
     <h1>Wasser</h1>
@@ -16,14 +16,21 @@
       </p>
     </div>
 
+    <div class="water-text-wrapper quiz">
+      <h1>Quiz</h1>
+     <p class="quiz_question">Warum hat der berühmte Naturgelehrte Leonardo da Vinci Wasser als Kutscher der Natur bezeichnet?</p>
+      <div class="quiz_answered answered_right">Richtig, weiter so!</div>
+      <div class="quiz_answered answered_wrong">Leider falsch. Noch einen Versuch?</div>
 
-<div class="todo">TODO:</div>
-    <div class="water-text-wrapper">
-      <p>Quizfrage:
-        Warum hat der berühmte Naturgelehrte Leonardo da Vinci Wasser als Kutscher der Natur bezeichnet?
-        Weil es Schiffe trägt. (☹   Noch ein Versuch?)
-        Weil man darin schwimmen kann. (☹   Noch ein Versuch?)
-        Weil es Sedimente und andere Materialien aufnehmen, transportieren und wieder absetzen kann. (☺   Weiter so!)</p>
+      <button class="button button-block button-dark quiz_button right_answer" ng-click="right($event)">
+        Weil es Schiffe trägt.
+      </button>
+      <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+        Weil man darin schwimmen kann.
+      </button>
+      <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+        Weil es Sedimente und andere Materialien aufnehmen, transportieren und wieder absetzen kann.
+      </button>
     </div>
 
   </ion-content>
