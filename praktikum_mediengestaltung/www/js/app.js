@@ -27,7 +27,7 @@ angular.module('water', ['ionic', 'ngCordova', 'ionic-audio'])
       })
 
 
-      .state('app.live', {
+      /*.state('app.live', {
         url: '/live',
         views: {
           'menuContent': {
@@ -35,7 +35,7 @@ angular.module('water', ['ionic', 'ngCordova', 'ionic-audio'])
             controller: 'picture_template'
           }
         }
-      })
+      })*/
       .state('app.gallery', {
         url: '/gallery',
         views: {
@@ -225,5 +225,5 @@ angular.module('water', ['ionic', 'ngCordova', 'ionic-audio'])
 
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/02');
+    $urlRouterProvider.otherwise('/app/gallery');
   });
