@@ -47,6 +47,10 @@ $color: #fff;
 //
 //navigation and list views
 //
+.scroll-bar-indicator
+{
+  display: none;
+}
 .bar-dark {
   background-color: $background !important;
 }
@@ -112,7 +116,7 @@ h1 {
 }
 
 .water-text-wrapper {
-  
+
   text-align: left;
   margin-bottom: 16px;
   background-color: $element-background-color;
