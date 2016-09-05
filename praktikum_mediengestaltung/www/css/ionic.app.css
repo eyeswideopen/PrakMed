@@ -9903,6 +9903,11 @@ h1 {
 .quiz .answered_wrong {
   display: none; }
 
+.water_hero {
+  width: 100%;
+  height: 500px;
+  background-size: cover; }
+
 .todo {
   font-size: 30px;
   text-align: center;

@@ -1,4 +1,4 @@
-angular.module('water').controller('picture_template', function ($scope, waterAudio, MediaManager, $timeout, $cordovaBeacon) {
+angular.module('water').controller('picture_template', function ($scope, waterAudio, MediaManager, $timeout) {
 
 
 
