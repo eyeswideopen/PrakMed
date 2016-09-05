@@ -9815,6 +9815,11 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+@font-face {
+  font-family: 'RalewayRegular';
+  src: url("../fonts/RalewayRegular.eot");
+  src: url("../fonts/RalewayRegular.eot") format("embedded-opentype"), url("../fonts/RalewayRegular.woff2") format("woff2"), url("../fonts/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular.ttf") format("truetype"), url("../fonts/RalewayRegular.svg#RalewayRegular") format("svg"); }
+
 .slider_image {
   height: 100%; }
 
@@ -9869,17 +9874,21 @@ h1 {
   margin-bottom: 16px;
   background-color: rgba(255, 255, 255, 0.1); }
   .water-text-wrapper p {
+    font-family: "RalewayRegular";
     font-size: 16px;
     line-height: 22px;
     font-weight: 300;
     padding: 16px; }
   .water-text-wrapper h1 {
+    font-family: "RalewayRegular";
     font-size: 24px;
     font-weight: 200;
     padding: 16px; }
   .water-text-wrapper img {
     height: 100%;
     width: 100%; }
+  .water-text-wrapper button {
+    font-family: "RalewayRegular"; }
 
 .quiz .button_right_answer {
   background-color: green !important; }
