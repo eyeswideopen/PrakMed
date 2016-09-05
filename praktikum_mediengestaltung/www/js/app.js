@@ -225,5 +225,5 @@ angular.module('water', ['ionic', 'ngCordova', 'ionic-audio'])
 
 
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/live');
+    $urlRouterProvider.otherwise('/app/02');
   });

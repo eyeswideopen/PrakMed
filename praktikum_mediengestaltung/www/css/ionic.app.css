@@ -9823,6 +9823,9 @@ a.button {
 .slider_image {
   height: 100%; }
 
+.scroll-bar-indicator {
+  display: none; }
+
 .bar-dark {
   background-color: #000 !important; }
 
