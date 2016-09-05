@@ -8,71 +8,71 @@ angular.module('water').controller('galleryController', function ($scope) {
       state: "app.01"
     },
     "2":{
-      name: "teststate 02",
+      name: "Eyjafjallajoekull Gletscher - Island",
       state: "app.02"
     },
     "3":{
-      name: "teststate 03",
+      name: "Thjorsa - Island",
       state: "app.03"
     },
     "4":{
-      name: "teststate 04",
+      name: "Roebuck Bay - Australien",
       state: "app.04"
     },
     "5":{
-      name: "teststate 05",
+      name: "Perito Moreno - Argentinien",
       state: "app.05"
     },
     "6":{
-      name: "teststate 06",
+      name: "Champagne Pool - Neuseeland",
       state: "app.06"
     },
     "7":{
-      name: "teststate 07",
+      name: "Adriatief - Österreich",
       state: "app.07"
     },
     "8":{
-      name: "teststate 08",
+      name: "Costa Vicentina - Portugal",
       state: "app.08"
     },
     "9":{
-      name: "teststate 09",
+      name: "Gullfoss - Island",
       state: "app.09"
     },
     "10":{
-      name: "teststate 10",
+      name: "Isluga - Chile",
       state: "app.10"
     },
     "11":{
-      name: "teststate 11",
+      name: "Viedma Getscher - Argentinien",
       state: "app.11"
     },
     "12":{
-      name: "teststate 12",
+      name: "Krka - Kroatien",
       state: "app.12"
     },
     "13":{
-      name: "teststate 13",
+      name: "Lake Natron - Kenya",
       state: "app.13"
     },
     "14":{
-      name: "teststate 14",
+      name: "Perito Moreno - Argentinien",
       state: "app.14"
     },
     "15":{
-      name: "teststate 15",
+      name: "Triftgletscher - Schweiz",
       state: "app.15"
     },
     "16":{
-      name: "teststate 16",
+      name: "Lenadelta - Russland",
       state: "app.16"
     },
     "17":{
-      name: "teststate 17",
+      name: "Meereis - Grönland",
       state: "app.17"
     },
     "18":{
-      name: "teststate 18",
+      name: "Petersen Fjord - Grönland",
       state: "app.18"
     }
   };
