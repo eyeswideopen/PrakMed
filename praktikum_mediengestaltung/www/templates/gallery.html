@@ -1,7 +1,8 @@
 ﻿<ion-view view-title="GALLERY">
   <ion-content>
     <ion-list>
-      <ion-item ng-repeat="hotspot in hotspots" ui-sref="{{hotspot.state}}">
+      <ion-item class="item-avatar-left" ng-repeat="hotspot in hotspots" ui-sref="{{hotspot.state}}">
+        <img src="{{hotspot.thumbnail}}">
         {{hotspot.name}}
       </ion-item>
     </ion-list>
