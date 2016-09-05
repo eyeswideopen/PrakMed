@@ -9888,8 +9888,8 @@ h1 {
     font-weight: 200;
     padding: 16px; }
   .water-text-wrapper img {
-    height: 100%;
-    width: 100%; }
+    width: 100%;
+    height: auto; }
   .water-text-wrapper button {
     font-family: "RalewayRegular"; }
 
