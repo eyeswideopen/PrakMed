@@ -1,21 +1,55 @@
 ﻿<ion-view>
   <ion-content>
-w      <div class="water_hero" style="background-image:url('img/high_res/Hotspot_12.jpg')" alt="thumbnail"></div>
+    <div class="water_hero" style="background-image:url('img/high_res/Hotspot_12.jpg')" alt="thumbnail"></div>
 
-        <div class="water-text-wrapper">
+    <div class="water-text-wrapper">
 
-            <h1>Krka, Kroatien</h1>
-            <p>Wenn das kalte, stark kalkhaltige Wasser des Flusses Krka über eine Felsstufe sprudelt, erwärmt es sich ein wenig. Als Folge fällt der gelöste Kalk aus und setzt sich ab. Mit der Zeit hat der Fluss die vielen Sinterstufen selbst auf- und weiter ausgebaut, über die er heute fließt.</p>
-            <hr />
+      <h1>Krka, Kroatien</h1>
+      <p>Wenn das kalte, stark kalkhaltige Wasser des Flusses Krka über eine Felsstufe sprudelt, erwärmt es sich ein
+        wenig. Als Folge fällt der gelöste Kalk aus und setzt sich ab. Mit der Zeit hat der Fluss die vielen
+        Sinterstufen selbst auf- und weiter ausgebaut, über die er heute fließt.</p>
 
-            <h1>Aus der Luft schwer zugänglich</h1>
-            <!--Hier audio hinzufügen audio/Hotspot_12_Audio_schwer zugaenglich_edit -->
-            <p>In einem Fotoprojekt, das Wasser als Landschaftsgestalter zeigen soll, dürfen die Kalkgebirge in Kroatien nicht fehlen. Denn vor allem in den Nationalparks von Plitvice, Krka und Pakleniza kann man direkt beobachten, wie Wasser Gestein produziert, indem es Kalk aus dem Untergrund löst, zur Oberfläche transportiert, dort ablagert und dabei meterhohe Kalksinterterrassen aufbaut.</p>
-            <p>Einen Helikopterpiloten vor Ort hatte Bernhard Edmaier per Internet schon von Deutschland aus gefunden. Jetzt brauchte es nur noch die amtlichen Fluggenehmigungen – was für ein Aufstand! Wir brauchten nicht nur die Genehmigung von jedem einzelnen Nationalpark, sondern auch noch übergreifend vom kroatischen Umweltministerium und vom Verteidigungsministerium. Alle Formulare gab es nur in kroatischer Sprache.</p>
-            <p>Länger als drei Monate hat es gedauert, bis die Formalitäten erledigt waren. Und damit nicht genug: Sofort nach der Reise musste Bernhard Edmaier eine Kopie aller Luftaufnahmen, die er gemacht hatte, an das Verteidigungsministerium schicken zur Überprüfung. Die Leute im Ministerium haben uns den Eingang bestätigt. Ansonsten war wohl alles in Ordnung mit den Fotos, denn wir haben seither nie mehr wieder etwas von dem Ministerium gehört.</p>
-            <img src="img/high_res/Hotspot_12_Bild_Heli_Kroatien.jpg" alt="thumbnail" />
-
+    </div>
+    <ion-audio-track track="myTrack" class="test water-audio" ng-show="audioAvailable">
+      <div class="list list-inset">
+        <div class="item item-thumbnail-left">
+          <img src="{{myTrack.art}}">
+          <h2>{{myTrack.title}}</h2>
+          <p>{{myTrack.artist}}</p>
+          <ion-audio-controls>
+            <a class="button button-icon icon" ion-audio-play ng-click="test()"></a>
+            <ion-spinner icon="ios"></ion-spinner>
+          </ion-audio-controls>
         </div>
+        <div class="item">
+          <ion-audio-progress-bar track="myTrack" display-time></ion-audio-progress-bar>
+        </div>
+      </div>
+    </ion-audio-track>
+    <div class="water-text-wrapper" ng-hide="audioAvailable">
+      <ion-icon name="add"></ion-icon>
+      <p>Audiokommentare sind in der Ausstellung nur mit angeschlossenen Kopfhöhrern verfügbar!</p>
+    </div>
+    <div class="water-text-wrapper">
 
-    </ion-content>
+      <h1>Aus der Luft schwer zugänglich</h1>
+      <!--Hier audio hinzufügen audio/Hotspot_12_Audio_schwer zugaenglich_edit -->
+      <p>In einem Fotoprojekt, das Wasser als Landschaftsgestalter zeigen soll, dürfen die Kalkgebirge in Kroatien nicht
+        fehlen. Denn vor allem in den Nationalparks von Plitvice, Krka und Pakleniza kann man direkt beobachten, wie
+        Wasser Gestein produziert, indem es Kalk aus dem Untergrund löst, zur Oberfläche transportiert, dort ablagert
+        und dabei meterhohe Kalksinterterrassen aufbaut.</p>
+      <p>Einen Helikopterpiloten vor Ort hatte Bernhard Edmaier per Internet schon von Deutschland aus gefunden. Jetzt
+        brauchte es nur noch die amtlichen Fluggenehmigungen – was für ein Aufstand! Wir brauchten nicht nur die
+        Genehmigung von jedem einzelnen Nationalpark, sondern auch noch übergreifend vom kroatischen Umweltministerium
+        und vom Verteidigungsministerium. Alle Formulare gab es nur in kroatischer Sprache.</p>
+      <p>Länger als drei Monate hat es gedauert, bis die Formalitäten erledigt waren. Und damit nicht genug: Sofort nach
+        der Reise musste Bernhard Edmaier eine Kopie aller Luftaufnahmen, die er gemacht hatte, an das
+        Verteidigungsministerium schicken zur Überprüfung. Die Leute im Ministerium haben uns den Eingang bestätigt.
+        Ansonsten war wohl alles in Ordnung mit den Fotos, denn wir haben seither nie mehr wieder etwas von dem
+        Ministerium gehört.</p>
+      <img src="img/high_res/Hotspot_12_Bild_Heli_Kroatien.jpg" alt="thumbnail"/>
+
+    </div>
+
+  </ion-content>
 </ion-view>

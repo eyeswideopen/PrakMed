@@ -12,7 +12,7 @@ angular.module('water').factory('beaconManager', function($cordovaBeacon, $ionic
 
   //returns bool if app has any beacons in range and thus is in the exibition
   beaconManager.isInExibition = function(){
-    return true;
+    return false;
   };
 
 

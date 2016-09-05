@@ -1,24 +1,42 @@
 ﻿<ion-view>
   <ion-content>
-    <!--<div class="water_hero" style="background-image:url('img/high_res/Hotspot_05.jpg')" alt="thumbnail"></div>-->
+    <div class="water_hero" style="background-image:url('img/high_res/Hotspot_05.jpg')" alt="thumbnail"></div>
 
     <div class="water-text-wrapper">
-      <img src="img/high_res/Hotspot_05.jpg" alt="thumbnail" />
+      <!--richtiges Bild einfügen-->
 
       <h1>Perito-Moreno-Gletscher, Argentinien</h1>
       <p>Wenn Gletschereis sehr dicht ist und kaum Luftblasen enthält, schimmert es blau – wie hier an der Front des
         Perito-Moreno-Gletschers. Die Eismasse schiebt sich in den Lago Argentino, einen großen See im Süden des Landes.
         Sie zerbricht dabei in unzählige Türme, die allmählich in sich zusammen stürzen.</p>
-     </div>
+    </div>
 
-    <!--<div class="water_hero" style="background-image:url('img/high_res/Hotspot_05_Wechselbild_PeritoMoreno_1.jpg')"
+    <div class="water_hero" style="background-image:url('img/high_res/Hotspot_05_Wechselbild_PeritoMoreno_1.jpg')"
          alt="thumbnail"></div>
-    <p class="caption">Perito-Moreno-Gletscher, Argentinien</p>-->
+    <p class="caption">Perito-Moreno-Gletscher, Argentinien</p>
+
+    <ion-audio-track track="myTrack" class="test water-audio" ng-show="audioAvailable">
+      <div class="list list-inset">
+        <div class="item item-thumbnail-left">
+          <img src="{{myTrack.art}}">
+          <h2>{{myTrack.title}}</h2>
+          <p>{{myTrack.artist}}</p>
+          <ion-audio-controls>
+            <a class="button button-icon icon" ion-audio-play ng-click="test()"></a>
+            <ion-spinner icon="ios"></ion-spinner>
+          </ion-audio-controls>
+        </div>
+        <div class="item">
+          <ion-audio-progress-bar track="myTrack" display-time></ion-audio-progress-bar>
+        </div>
+      </div>
+    </ion-audio-track>
+    <div class="water-text-wrapper" ng-hide="audioAvailable">
+      <ion-icon name="add"></ion-icon>
+      <p>Audiokommentare sind in der Ausstellung nur mit angeschlossenen Kopfhöhrern verfügbar!</p>
+    </div>
 
     <div class="water-text-wrapper">
-
-      <img src="img/high_res/Hotspot_05_Wechselbild_PeritoMoreno_1.jpg" alt="thumbnail" />
-      <p class="caption">Perito-Moreno-Gletscher, Argentinien</p>
 
       <h1>Geduld, Geduld, Geduld</h1>
       <!--Hier audio hinzufügen audio/Hotspot_05_Audio_Geduld_edit.mp3 -->
@@ -28,18 +46,14 @@
         gleichzeitig krachend in sich zusammen. Wasserfontänen schossen empor und eine Flutwelle rollte über den See.
         Die Eistrümmer schaukelten wild im Wasser, bis sie ihr Gleichgewicht gefunden hatten, und trieben dann mit der
         Strömung langsam davon.</p>
-
-        <img src="img/high_res/Hotspot_05_Wechselbild_PeritoMoreno_2.jpg" alt="thumbnail" />
-        <p class="caption">Perito-Moreno-Gletscher, Argentinien</p>
-
-      <!--</div>
+      </div>
 
       <div class="water_hero" style="background-image:url('img/high_res/Hotspot_05_Wechselbild_PeritoMoreno_2.jpg')"
            alt="thumbnail"></div>
 
       <p class="caption">Perito-Moreno-Gletscher, Argentinien</p>
 
-    <div class="water-text-wrapper"> -->
+    <div class="water-text-wrapper">
 
       <p>Einen dieser spektakulären Momente wollte Bernhard Edmaier möglichst optimal mit seiner Kamera erwischen.</p>
       <p>Wohl nirgendwo auf der Welt lässt sich das Kalben eines Gletschers so gut beobachten wie hier. Denn direkt
