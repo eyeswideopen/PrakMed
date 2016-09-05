@@ -155,6 +155,19 @@ h1 {
     padding: 30px;
 
   }
+  .answered_right,
+  .answered_wrong{
+    display: none;
+  }
+}
+
+//
+//HERO
+//
+.water_hero{
+  width: 100%;
+  height: 500px;
+  background-size: cover;
 }
 
 

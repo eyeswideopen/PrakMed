@@ -1,43 +1,54 @@
 ﻿<ion-view>
-  <ion-content overflow-scroll="false">
+  <ion-content>
+    <div class="water_hero" style="background-image:url('img/high_res/Hotspot_07.jpg')" alt="thumbnail"></div>
 
-      <div class="water-text-wrapper">
-          <div class="thumbnail">
-              <!--richtiges Bild einfügen-->
-              <img src="img/high_res/test_01.jpg" alt="thumbnail" />
-          </div>
-          <h1>Zentralalpen, Österreich</h1>
-          <p>Eine dicke Wolkendecke – eine Föhnwalze – zieht sich über die Bergkette der Zentralalpen. Der Grund: Warme, feuchte Luftmassen strömen vom Mittelmeer Richtung Norden und werden von den Alpen zum Aufstieg gezwungen. Dort, wo sie an das Gebirge stoßen, kann es stark regnen oder schneien. Sobald sie die höchsten Gipfel überwunden haben, sinken die Wolkenmassen in die Täler ab und lösen sich auf.</p>
-          <hr />
+    <div class="water-text-wrapper">
+      <h1>Zentralalpen, Österreich</h1>
+      <p>Eine dicke Wolkendecke – eine Föhnwalze – zieht sich über die Bergkette der Zentralalpen. Der Grund: Warme,
+        feuchte Luftmassen strömen vom Mittelmeer Richtung Norden und werden von den Alpen zum Aufstieg gezwungen. Dort,
+        wo sie an das Gebirge stoßen, kann es stark regnen oder schneien. Sobald sie die höchsten Gipfel überwunden
+        haben, sinken die Wolkenmassen in die Täler ab und lösen sich auf.</p>
+      <hr/>
 
-          <!--question 1 -->
-          <p>Was treibt den Wasserkreislauf an?</p>
-          <button class="button button-full  button-dark">
-              <!--correct -->
-              die Sonne
-          </button>
-          <button class="button button-full  button-dark">
-              der Mond
-          </button>
-          <button class="button button-full  button-dark">
-              der Wind
-          </button>
-          <hr />
+    </div>
 
-          <!--question 2 -->
-          <p>Wie lange braucht ein Regentropfen, um zu verdunsten, als Gas aufzusteigen, in einer Wolke zu kondensieren und schließlich wieder als Regentropfen auf die Erde zu fallen?</p>
-          <button class="button button-full  button-dark">
-              <!--correct -->
-              8-10 Tage
-          </button>
-          <button class="button button-full  button-dark">
-              1 Monat
-          </button>
-          <button class="button button-full  button-dark">
-              3-5 Monate
-          </button>
+    <div class="water-text-wrapper quiz">
+      <h1>Quizfrage 1</h1>
+      <p class="quiz_question">Was treibt den Wasserkreislauf an?</p>
+      <div class="quiz_answered answered_right">Richtig, weiter so!</div>
+      <div class="quiz_answered answered_wrong">Leider falsch. Noch einen Versuch?</div>
 
-      </div>
+
+      <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+        Der Mond
+      </button>
+      <button class="button button-block button-dark quiz_button right_answer" ng-click="right($event)">
+        Die Sonne
+      </button>
+      <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+        Der Wind
+      </button>
+    </div>
+
+    <div class="water-text-wrapper quiz">
+      <h1>Quizfrage 2</h1>
+      <p class="quiz_question">Wie lange braucht ein Regentropfen, um zu verdunsten, als Gas aufzusteigen, in einer Wolke zu kondensieren und
+        schließlich wieder als Regentropfen auf die Erde zu fallen?</p>
+      <div class="quiz_answered answered_right">Richtig, weiter so!</div>
+      <div class="quiz_answered answered_wrong">Leider falsch. Noch einen Versuch?</div>
+
+
+      <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+        1 Monat
+      </button>
+
+      <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+        3-5 Monate
+      </button>
+      <button class="button button-block button-dark quiz_button right_answer" ng-click="right($event)">
+        8-10 Tage
+      </button>
+    </div>
 
   </ion-content>
 </ion-view>

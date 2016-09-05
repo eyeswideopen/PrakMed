@@ -1,41 +1,50 @@
 ﻿<ion-view>
-    <ion-content overflow-scroll="false">
+  <ion-content>
+      <div class="water_hero" style="background-image:url('img/high_res/Hotspot_13.jpg')" alt="thumbnail"></div>
 
         <div class="water-text-wrapper">
-            <div class="thumbnail">
-                <!--richtiges Bild einfügen-->
-                <img src="img/high_res/test_01.jpg" alt="thumbnail" />
-            </div>
             <h1>Engare Ngiro, Kenia</h1>
             <p>Engare Ngiro, der „braune Fluss“, ist der wichtigste Zufluss des Lake Natron, einem der großen Salzseen im Ostafrikanischen Graben. Er hat ein Delta aufgeschüttet.</p>
             <hr />
 
-            <!--question 1 -->
-            <p>Woher kommt das Salz im Meer?</p>
-            <button class="button button-full  button-dark">
-                <!--correct -->
-                Salze werden aus dem Boden und dem Gestein herausgewaschen.
-            </button>
-            <button class="button button-full  button-dark">
-                Regenwasser ist salzig. 
-            </button>
-            <button class="button button-full  button-dark">
-                Riesige Frachtschiffe verlieren einen Teil ihrer geladenen Salz-Säcke. 
-            </button>
-            <hr />
 
-            <!--question 2 -->
-            <p>Wie viel Sand, Ton und Geröll wird von allen Flüssen der Erde jährlich ins Meer transportiert?</p>
-            <button class="button button-full  button-dark">
-                ca. eine Tonne 
+
+
+          <div class="water-text-wrapper quiz">
+            <h1>Quizfrage 1</h1>
+            <p class="quiz_question">Woher kommt das Salz im Meer?</p>
+            <div class="quiz_answered answered_right">Richtig, weiter so!</div>
+            <div class="quiz_answered answered_wrong">Leider falsch. Noch einen Versuch?</div>
+
+
+            <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+              Regenwasser ist salzig.
             </button>
-            <button class="button button-full  button-dark">
-                <!--correct -->
-                ca. 13,5 Milliarden Tonnen 
+            <button class="button button-block button-dark quiz_button right_answer" ng-click="right($event)">
+              Salze werden aus dem Boden und dem Gestein herausgewaschen.
             </button>
-            <button class="button button-full  button-dark">
-                ca. 100 Milliarden Tonnen 
+            <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+              Riesige Frachtschiffe verlieren einen Teil ihrer geladenen Salz-Säcke.
             </button>
+          </div>
+
+          <div class="water-text-wrapper quiz">
+            <h1>Quizfrage 2</h1>
+            <p class="quiz_question">Wie viel Sand, Ton und Geröll wird von allen Flüssen der Erde jährlich ins Meer transportiert?</p>
+            <div class="quiz_answered answered_right">Richtig, weiter so!</div>
+            <div class="quiz_answered answered_wrong">Leider falsch. Noch einen Versuch?</div>
+
+
+            <button class="button button-block button-dark quiz_button right_answer" ng-click="right($event)">
+              ca. 13,5 Milliarden Tonnen
+            </button>
+            <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+              ca. eine Tonne
+            </button>
+            <button class="button button-block button-dark quiz_button wrong_answer" ng-click="wrong($event)">
+              ca. 100 Milliarden Tonnen
+            </button>
+          </div>
 
         </div>
 
