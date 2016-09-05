@@ -9899,6 +9899,10 @@ h1 {
   font-size: 30px;
   padding: 30px; }
 
+.quiz .answered_right,
+.quiz .answered_wrong {
+  display: none; }
+
 .todo {
   font-size: 30px;
   text-align: center;
