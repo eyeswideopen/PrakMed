@@ -17,6 +17,7 @@ angular.module('water').controller('02_HotspotController', function ($scope, wat
     url: 'audio/Hotspot_02_Audio_Fotoflug_edit.mp3',
     artist: 'Frau Jung-Hüttl',
     title: 'Fotoflug mit Hindernissen',
-    art: 'img/profile.jpg'
+    //art: 'img/profile.jpg'
+    art: 'img/high_res/Hotspot_02.jpg'
   }
 });

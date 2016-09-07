@@ -16,7 +16,7 @@ angular.module('water').controller('10_HotspotController', function ($scope, wat
     url: 'audio/Hotspot_10_Audio_Sauerstoff_edit.mp3',
     artist: 'Frau Jung-Hüttl',
     title: 'Nicht ohne Sauerstoff',
-    art: 'img/profile.jpg'
+    art: 'img/high_res/Hotspot_10.jpg'
   }
 
 });

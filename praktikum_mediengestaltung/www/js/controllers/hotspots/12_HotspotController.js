@@ -17,7 +17,7 @@ angular.module('water').controller('12_HotspotController', function ($scope, wat
     url: 'audio/Hotspot_12_Audio_schwer zugaenglich_edit.mp3',
     artist: 'Frau Jung-Hüttl',
     title: 'Schwer zugänglich',
-    art: 'img/profile.jpg'
+    art: 'img/high_res/Hotspot_12.jpg'
   }
 
 });

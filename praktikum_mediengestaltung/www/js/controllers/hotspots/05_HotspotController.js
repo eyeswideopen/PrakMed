@@ -17,7 +17,7 @@ angular.module('water').controller('05_HotspotController', function ($scope, wat
     url: 'audio/Hotspot_05_Audio_Geduld_edit.mp3',
     artist: 'Frau Jung-Hüttl',
     title: 'Geduld Geduld Geduld',
-    art: 'img/profile.jpg'
+    art: 'img/high_res/Hotspot_05.jpg'
   }
 
 });
