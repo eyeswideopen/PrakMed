@@ -5,3 +5,5 @@
 - this will install ionic and all dependencies
 - to start the project navigate to the ionic project folder "praktikum_mediengestaltung"
 - from here all ionic CLI commands are available (```ionic --help```is your friend)
+
+gulp watch

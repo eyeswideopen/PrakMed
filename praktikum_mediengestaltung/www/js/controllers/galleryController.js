@@ -11,7 +11,7 @@ angular.module('water').controller('galleryController', function ($scope) {
 
     },
     "2":{
-      name: "Eyjafjallajoekull Gletscher - Island",
+      name: "Eyjafjallajoekull - Island",
       state: "app.02",
       thumbnail: "img/high_res/Hotspot_02.jpg"
     },
@@ -31,12 +31,12 @@ angular.module('water').controller('galleryController', function ($scope) {
       thumbnail: "img/high_res/Hotspot_05.jpg"
     },
     "6":{
-      name: "Champagne Pool - Neuseeland",
+      name: "Waiotapu - Neuseeland",
       state: "app.06",
       thumbnail: "img/high_res/Hotspot_06.jpg"
     },
     "7":{
-      name: "Adriatief - Österreich",
+      name: "Zentralalpen - Österreich",
       state: "app.07",
       thumbnail: "img/high_res/Hotspot_07.jpg"
     },
@@ -56,7 +56,7 @@ angular.module('water').controller('galleryController', function ($scope) {
       thumbnail: "img/high_res/Hotspot_10.jpg"
     },
     "11":{
-      name: "Viedma Getscher - Argentinien",
+      name: "Viedma - Argentinien",
       state: "app.11",
       thumbnail: "img/high_res/Hotspot_11.jpg"
     },
@@ -66,14 +66,14 @@ angular.module('water').controller('galleryController', function ($scope) {
       thumbnail: "img/high_res/Hotspot_12.jpg"
     },
     "13":{
-      name: "Lake Natron - Kenya",
+      name: "Engare Ngiro - Kenia",
       state: "app.13",
       thumbnail: "img/high_res/Hotspot_13.jpg"
     },
     "14":{
       name: "Perito Moreno - Argentinien",
       state: "app.14",
-      thumbnail: "img/high_res/Hotspot_01.jpg"
+      thumbnail: "Hotspot_05_Wechselbild_PeritoMoreno_1"
       //TODO: final image!!
     },
     "15":{
@@ -92,7 +92,7 @@ angular.module('water').controller('galleryController', function ($scope) {
       thumbnail: "img/high_res/Hotspot_17.jpg"
     },
     "18":{
-      name: "Petersen Fjord - Grönland",
+      name: "Johan Petersen Fjord - Grönland",
       state: "app.18",
       thumbnail: "img/high_res/Hotspot_18.jpg"
     }
