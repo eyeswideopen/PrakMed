@@ -73,7 +73,7 @@ angular.module('water').controller('galleryController', function ($scope) {
     "14":{
       name: "Perito Moreno - Argentinien",
       state: "app.14",
-      thumbnail: "Hotspot_05_Wechselbild_PeritoMoreno_1"
+      thumbnail: "img/high_res/Hotspot_05_Wechselbild_PeritoMoreno_1.jpg"
       //TODO: final image!!
     },
     "15":{
